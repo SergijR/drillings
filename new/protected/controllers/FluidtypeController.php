@@ -67,11 +67,11 @@ class FluidtypeController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['FluidType']))
-		{
+		if (isset($_POST['FluidType'])) {
 			$model->attributes=$_POST['FluidType'];
-			if($model->save())
+			if ($model->save()) {
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
 
 		$this->render('create',array(
@@ -91,11 +91,11 @@ class FluidtypeController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['FluidType']))
-		{
+		if (isset($_POST['FluidType'])) {
 			$model->attributes=$_POST['FluidType'];
-			if($model->save())
+			if ($model->save()) {
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
 
 		$this->render('update',array(
@@ -110,11 +110,17 @@ class FluidtypeController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->loadModel($id)->delete();
+		if (Yii::app()->request->isPostRequest) {
+			// we only allow deletion via POST request
+			$this->loadModel($id)->delete();
 
-		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
-		if(!isset($_GET['ajax']))
-			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+			// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+			if (!isset($_GET['ajax'])) {
+				$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+			}
+		} else {
+			throw new CHttpException(400,'Invalid request. Please do not repeat this request again.');
+		}
 	}
 
 	/**
@@ -135,8 +141,9 @@ class FluidtypeController extends Controller
 	{
 		$model=new FluidType('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['FluidType']))
+		if (isset($_GET['FluidType'])) {
 			$model->attributes=$_GET['FluidType'];
+		}
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -153,8 +160,9 @@ class FluidtypeController extends Controller
 	public function loadModel($id)
 	{
 		$model=FluidType::model()->findByPk($id);
-		if($model===null)
+		if ($model===null) {
 			throw new CHttpException(404,'The requested page does not exist.');
+		}
 		return $model;
 	}
 
@@ -164,8 +172,7 @@ class FluidtypeController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='fluid-type-form')
-		{
+		if (isset($_POST['ajax']) && $_POST['ajax']==='fluid-type-form') {
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}

@@ -1,7 +1,9 @@
 <?php
 /* @var $this FluidtypeController */
 /* @var $model FluidType */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Fluid Types'=>array('index'),
 	$model->Name=>array('view','id'=>$model->id),
@@ -16,6 +18,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update FluidType <?php echo $model->id; ?></h1>
+    <h1>Update FluidType <?php echo $model->id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

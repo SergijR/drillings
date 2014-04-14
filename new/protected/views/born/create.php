@@ -1,7 +1,9 @@
 <?php
 /* @var $this BornController */
 /* @var $model Born */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Borns'=>array('index'),
 	'Create',

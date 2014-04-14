@@ -8,6 +8,12 @@ body {
 	line-height: 14px;
 	overflow-y: scroll;
 }
+th.label {
+background: none;
+color: #000;
+text-shadow: none;
+}
+
 
 a:link, a:active, a:visited {text-decoration: none; color: #266d9a;}
 a:hover {text-decoration: underline; color: #266d9a;}
@@ -27,7 +33,9 @@ p.border {padding: 7px 0 7px 3px; border-top: 1px dashed #e5e5e5; border-bottom:
 	border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px;
 	background: #b1d1ee;
 }
-#yw3 li {line-height: 55px;}
+.navbar .nav{line-height: 55px;}
+
+
 #page
 {
 	min-height: 630px;

@@ -1,7 +1,9 @@
 <?php
 /* @var $this ArchController */
 /* @var $model Arch */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Arches'=>array('index'),
 	$model->Name=>array('view','id'=>$model->id),
@@ -16,6 +18,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Arch <?php echo $model->id; ?></h1>
+    <h1>Update Arch <?php echo $model->id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -1,30 +1,22 @@
 <?php
 /* @var $this ArchController */
 /* @var $dataProvider CActiveDataProvider */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Arches',
 );
 
 $this->menu=array(
-	array('label'=>t('Create Arch'), 'url'=>array('create')),
-	array('label'=>t('Manage Arch'), 'url'=>array('admin')),
-	 TbHtml::menuDivider(),
+	array('label'=>'Create Arch','url'=>array('create')),
+	array('label'=>'Manage Arch','url'=>array('admin')),
 );
 ?>
 
 <h1>Arches</h1>
 
-<?php 
-$this->widget('bootstrap.widgets.TbGridView', array(
-   'dataProvider' => $dataProvider,
-   'filter' => $model,
-   'template' => "{items}",
-   'columns' => array(
-        //'id',
-		'Name',
-		array(
-			'class'=>'CButtonColumn',
-		),
-    ),
+<?php $this->widget('bootstrap.widgets.TbListView',array(
+	'dataProvider'=>$dataProvider,
+	'itemView'=>'_view',
 )); ?>

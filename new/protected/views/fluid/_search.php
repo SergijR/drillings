@@ -6,145 +6,67 @@
 
 <div class="wide form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+    <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Date'); ?>
-		<?php echo $form->textField($model,'Date'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Date',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Interval'); ?>
-		<?php echo $form->textField($model,'Interval'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Interval',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_FluidType'); ?>
-		<?php echo $form->textField($model,'id_FluidType'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_FluidType',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Composition'); ?>
-		<?php echo $form->textField($model,'Composition'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Composition',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Density1'); ?>
-		<?php echo $form->textField($model,'Density1'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Density1',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Viscosity1'); ?>
-		<?php echo $form->textField($model,'Viscosity1'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Viscosity1',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Filtration1'); ?>
-		<?php echo $form->textField($model,'Filtration1'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Filtration1',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'MudcakeThickness1'); ?>
-		<?php echo $form->textField($model,'MudcakeThickness1'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'MudcakeThickness1',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'SSV1'); ?>
-		<?php echo $form->textField($model,'SSV1'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'SSV1',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'SSV10'); ?>
-		<?php echo $form->textField($model,'SSV10'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'SSV10',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'SurfaceTension'); ?>
-		<?php echo $form->textField($model,'SurfaceTension'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'SurfaceTension',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_UBR'); ?>
-		<?php echo $form->textField($model,'id_UBR'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_UBR',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Square'); ?>
-		<?php echo $form->textField($model,'id_Square'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Square',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Pore'); ?>
-		<?php echo $form->textField($model,'id_Pore'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Pore',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Density2'); ?>
-		<?php echo $form->textField($model,'Density2'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Density2',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Viscosity2'); ?>
-		<?php echo $form->textField($model,'Viscosity2'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Viscosity2',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Filtration2'); ?>
-		<?php echo $form->textField($model,'Filtration2'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Filtration2',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'MudcakeThickness2'); ?>
-		<?php echo $form->textField($model,'MudcakeThickness2'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'MudcakeThickness2',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Stratigraphy'); ?>
-		<?php echo $form->textField($model,'id_Stratigraphy'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Stratigraphy',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Arch'); ?>
-		<?php echo $form->textField($model,'id_Arch'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Arch',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_PoreType'); ?>
-		<?php echo $form->textField($model,'id_PoreType'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_PoreType',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'ProjectNumber'); ?>
-		<?php echo $form->textField($model,'ProjectNumber'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'ProjectNumber',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'interval1'); ?>
-		<?php echo $form->textField($model,'interval1'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'interval1',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Born'); ?>
-		<?php echo $form->textField($model,'id_Born'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Born',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'interval2'); ?>
-		<?php echo $form->textField($model,'interval2'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'interval2',array('span'=>5)); ?>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
-	</div>
+        <div class="form-actions">
+        <?php echo TbHtml::submitButton('Search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));?>
+    </div>
 
-<?php $this->endWidget(); ?>
+    <?php $this->endWidget(); ?>
 
 </div><!-- search-form -->

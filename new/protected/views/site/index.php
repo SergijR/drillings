@@ -14,6 +14,29 @@ $this->widget('bootstrap.widgets.TbModal', array(
 
 ?>
 <div class="well"><h3>Добро пожаловать <?php echo Yii::app()->user->name; ?></h3>
-<p><a href='' data-toggle="modal" data-target="#myModal" >Узнать подробнее о проекте</a></p>
+
+<?php 
+$FluidType = FluidType::model()->findAll();
+?>
+<?php $this->widget('bootstrap.widgets.TbTabs', array(
+    'type'=>'tabs', // 'tabs' or 'pills'
+    'tabs'=>array(
+        array('label'=>'Home', 'content'=>'Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.', 'active'=>true),
+        array('label'=>'Profile', 'content'=>'Food truck fixie locavore, accusamus mcsweeney\'s marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.'),
+    ),
+)); 
+/*
+ $this->widget('bootstrap.widgets.TbGridView',array(
+	'id'=>'fluid-type-grid',
+	'dataProvider'=>$gridDataProvider,
+	'filter'=>$FluidType,
+	'columns'=>array(
+		'id',
+		'Name',
+		array(
+			'class'=>'bootstrap.widgets.TbButtonColumn',
+		),
+	),
+)); */?>
 </div>
 
