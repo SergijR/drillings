@@ -15,8 +15,9 @@ $this->menu=array(
 ?>
 
 <h1>Арки</h1>
-
-<?php $this->widget('bootstrap.widgets.TbGridView',array(
+	<?php $dataProvider = new CActiveDataProvider('Arch');
+	
+	$this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'arch-grid',
 	'dataProvider'=>$dataProvider,
 	'filter'=>$model,

@@ -134,6 +134,27 @@ class ArchController extends Controller
 		));
 	}
 
+	
+	public function actionIndex_home()
+		{
+			$model_name = get_class($this);
+			$model_name = str_replace('Controller','',$model_name);	
+			
+			$model=new $model_name('search');
+			$model->unsetAttributes();  // clear any default values
+			if(isset($_GET[$model_name]))
+			$model->attributes=$_GET[$model_name];
+			
+			if (Yii::app()->user->checkAccess('Customer')) {
+				$model->clt_id = Yii::app()->user->model()->clt_id;
+			}
+			
+			$this->render('index_home',array(
+			'model'=>$model,
+			));
+
+		}
+	
 	/**
 	 * Manages all models.
 	 */

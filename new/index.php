@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8',true);
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/www/framework/yii.php';
+$yii=dirname(__FILE__).'/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
 $drilling_func=dirname(__FILE__).'/protected/config/drilling_func.php';
 

@@ -16,7 +16,8 @@ $this->menu=array(
 
 <h1>Borns</h1>
 
-<?php $this->widget('bootstrap.widgets.TbGridView',array(
+<?php $dataProvider = new CActiveDataProvider('Born');
+$this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'born-grid',
 	'dataProvider'=>$dataProvider,
 	'filter'=>$model,
