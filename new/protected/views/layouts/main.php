@@ -26,24 +26,24 @@
     'brandLabel' => '<a href="/" class="brand"><img src="/images/logo.png"></a>',
 	'collapse' => true,
     'items' => array(
-	'<ul id="yw2" class="nav" role="menu"><li role="menuitem"><a href="" data-toggle="modal" data-target="#myModal">О Проекте</a></li></ul>',
-	array(
+/*	array(
             'class' => 'bootstrap.widgets.TbNav',
 			'items'=>array(
 				array('url'=>Yii::app()->getModule('user')->loginUrl, 'label'=>Yii::app()->getModule('user')->t("Login"), 'visible'=>Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->registrationUrl, 'label'=>Yii::app()->getModule('user')->t("Register"), 'visible'=>Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->profileUrl, 'label'=>Yii::app()->getModule('user')->t("Profile"), 'visible'=>!Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->logoutUrl, 'label'=>Yii::app()->getModule('user')->t("Logout").' ('.Yii::app()->user->name.')', 'visible'=>!Yii::app()->user->isGuest),
+				'<li role="menuitem"><a href="" data-toggle="modal" data-target="#myModal">О Проекте</a></li>'
 			),
-        ),
+        ),*/
 	array(
             'class' => 'bootstrap.widgets.TbNav',
 			'items'=>array(
-				
 				array('url'=>Yii::app()->getModule('user')->loginUrl, 'label'=>Yii::app()->getModule('user')->t("Login"), 'visible'=>Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->registrationUrl, 'label'=>Yii::app()->getModule('user')->t("Register"), 'visible'=>Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->profileUrl, 'label'=>Yii::app()->getModule('user')->t("Profile"), 'visible'=>!Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->logoutUrl, 'label'=>Yii::app()->getModule('user')->t("Logout").' ('.Yii::app()->user->name.')', 'visible'=>!Yii::app()->user->isGuest),
+				'<li role="menuitem"><a href="" data-toggle="modal" data-target="#myModal">О Проекте</a></li>'
 			),
         ),
 	),
@@ -51,51 +51,6 @@
 
 <?php } ?>
 <div class="row-fluid" style="margin-top: 85px;">
-<?php $this->widget('zii.widgets.CMenu', array(
-                'items' => array(
-                    array(
-                        'label' => '<i class="icon-user"></i><span class="username">Admin</span> <i class="icon-angle-down"></i>',
-                        'url' => '#',
-                        'linkOptions'=> array(
-                            'class' => 'dropdown-toggle',
-                            'data-toggle' => 'dropdown',
-                            ),
-                        'itemOptions' => array('class'=>'dropdown user'),
-                        'items' => array(
-                            array(
-                                'label' => '<i class="icon-user"></i> My Profile',
-                                'url' => '#'
-                            ),
-                            array(
-                                'label' => '<i class="icon-calendar"></i> My Calendar',
-                                'url' => '#',
-                            ),
-                            array(
-                                'label' => '<i class="icon-tasks"></i> My Tasks</a>',
-                                'url' => '#',
-                            ),
-                            array(
-                                'label' => '',
-                                array(
-                                    'class' => 'divider',
-                                )
-                            ),
-                            array(
-                                'label' => '<i class="icon-key"></i> Log Out',
-                                'url' => array('site/logout'),
-                            ),
-                        )
-                    ),
-                ),
-                'encodeLabel' => false,
-                'htmlOptions' => array(
-                    'class'=>'nav pull-left',
-                        ),
-                'submenuHtmlOptions' => array(
-                    'class' => 'dropdown-menu',
-                )
-            ));?>
-
 	<?php echo $content; ?>
 </div>
 	<div class="clear"></div>

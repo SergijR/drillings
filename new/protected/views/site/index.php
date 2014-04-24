@@ -13,18 +13,26 @@ $this->widget('bootstrap.widgets.TbModal', array(
 ));
 
 ?>
-<div class="well"><h3>Добро пожаловать <?php echo Yii::app()->user->name; ?></h3>
+
+<div id="yw1" class="tabbable">
+<ul class="nav nav-tabs" role="menu">
+<li class="active" role="menuitem"><a data-toggle="tab" tabindex="-1" href="#tab_1"><i class="icon-user"></i>Arch</a></li>
+<li role="menuitem" class=""><a data-toggle="tab" tabindex="-1" href="#tab_2"><i class="icon-user"></i>Born</a></li></ul>
+<div class="tab-content">
+<div id="tab_1" class="tab-pane fade active in">
+<?php 
+	$this->renderPartial('/arch/index_home', array(
+        'model' => $arch, 
+        ));
+?>
+</div>
+<div id="tab_2" class="tab-pane fade"><?php 
+	$this->renderPartial('/born/index_home', array(
+        'model' => $born, 
+        ));/*добавить метод в диплом*/
+?></div></div></div>
 
 <?php 
-$FluidType = FluidType::model()->findAll();
-?>
-<?php $this->widget('bootstrap.widgets.TbTabs', array(
-    'type'=>'tabs', // 'tabs' or 'pills'
-    'tabs'=>array(
-        array('label'=>'Home', 'content'=>'Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.', 'active'=>true),
-        array('label'=>'Profile', 'content'=>'Food truck fixie locavore, accusamus mcsweeney\'s marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.'),
-    ),
-)); 
 /*
  $this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'fluid-type-grid',

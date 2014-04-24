@@ -5,7 +5,7 @@
 
 <?php
 $this->breadcrumbs=array(
-	'Arches',
+	'Арки',
 );
 
 $this->menu=array(
@@ -14,9 +14,16 @@ $this->menu=array(
 );
 ?>
 
-<h1>Arches</h1>
+<h1>Арки</h1>
 
-<?php $this->widget('bootstrap.widgets.TbListView',array(
+<?php $this->widget('bootstrap.widgets.TbGridView',array(
+	'id'=>'arch-grid',
 	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
+	'filter'=>$model,
+	'columns'=>array(
+		'Name',
+		array(
+			'class'=>'bootstrap.widgets.TbButtonColumn',
+		),
+	),
 )); ?>

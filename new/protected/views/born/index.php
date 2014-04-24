@@ -16,7 +16,14 @@ $this->menu=array(
 
 <h1>Borns</h1>
 
-<?php $this->widget('bootstrap.widgets.TbListView',array(
+<?php $this->widget('bootstrap.widgets.TbGridView',array(
+	'id'=>'born-grid',
 	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
+	'filter'=>$model,
+	'columns'=>array(
+		'Name',
+		array(
+			'class'=>'bootstrap.widgets.TbButtonColumn',
+		),
+	),
 )); ?>

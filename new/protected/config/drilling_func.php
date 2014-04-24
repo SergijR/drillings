@@ -1,19 +1,6 @@
 <?php 
 
-function t( $text, $replaces = '') {
-	
-	$lang = Yii::t('common',$text);
-	if (is_array($replaces)) {
-		foreach($replaces as $key=>$replace){
-			$lang = str_replace ( $key ,$replace ,$lang );
-		}
-	}
-	
-	return $lang;
-	
-}
-
-
+function t( $text, $replaces = '') {	$lang = Yii::t('common',$text);	if (is_array($replaces)) {		foreach($replaces as $key=>$replace){			$lang = str_replace ( $key ,$replace ,$lang );		}	}	return $lang;}
 class FiltersForm extends CFormModel
 {
     public $filters = array();
