@@ -1,7 +1,9 @@
 <?php
 /* @var $this EliminationactionsController */
 /* @var $model EliminationActions */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Elimination Actions'=>array('index'),
 	'Create',

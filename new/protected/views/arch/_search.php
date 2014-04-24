@@ -6,27 +6,19 @@
 
 <div class="wide form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+    <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
 
-	<div class="_row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id',array('span'=>5)); ?>
 
-	<div class="_row">
-		<?php echo $form->label($model,'Name'); ?>
-		<?php echo $form->textField($model,'Name',array('size'=>30,'maxlength'=>30)); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Name',array('span'=>5,'maxlength'=>30)); ?>
 
-	<div class="_row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
-	</div>
+        <div class="form-actions">
+        <?php echo TbHtml::submitButton('Search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));?>
+    </div>
 
-<?php $this->endWidget(); ?>
-
-
+    <?php $this->endWidget(); ?>
 
 </div><!-- search-form -->

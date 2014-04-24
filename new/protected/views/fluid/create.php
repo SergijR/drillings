@@ -1,7 +1,9 @@
 <?php
 /* @var $this FluidController */
 /* @var $model Fluid */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Fluids'=>array('index'),
 	'Create',

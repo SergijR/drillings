@@ -1,7 +1,9 @@
 <?php
 /* @var $this FluidController */
 /* @var $model Fluid */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Fluids'=>array('index'),
 	$model->id,
@@ -18,11 +20,16 @@ $this->menu=array(
 
 <h1>View Fluid #<?php echo $model->id; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
+<?php $this->widget('zii.widgets.CDetailView',array(
+    'htmlOptions' => array(
+        'class' => 'table table-striped table-condensed table-hover',
+    ),
+    'data'=>$model,
+    'attributes'=>array(
+		'id',
 		'Date',
 		'Interval',
+		'id_FluidType',
 		'Composition',
 		'Density1',
 		'Viscosity1',
@@ -31,12 +38,19 @@ $this->menu=array(
 		'SSV1',
 		'SSV10',
 		'SurfaceTension',
+		'id_UBR',
+		'id_Square',
+		'id_Pore',
 		'Density2',
 		'Viscosity2',
 		'Filtration2',
 		'MudcakeThickness2',
+		'id_Stratigraphy',
+		'id_Arch',
+		'id_PoreType',
 		'ProjectNumber',
 		'interval1',
+		'id_Born',
 		'interval2',
 	),
 )); ?>

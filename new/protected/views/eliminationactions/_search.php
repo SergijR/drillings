@@ -6,70 +6,37 @@
 
 <div class="wide form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+    <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Number'); ?>
-		<?php echo $form->textField($model,'Number'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Number',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Depth'); ?>
-		<?php echo $form->textField($model,'Depth'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Depth',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'InjectionPressure'); ?>
-		<?php echo $form->textField($model,'InjectionPressure'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'InjectionPressure',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Material'); ?>
-		<?php echo $form->textField($model,'Material'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Material',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'Note'); ?>
-		<?php echo $form->textField($model,'Note'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'Note',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_EliminationMethod'); ?>
-		<?php echo $form->textField($model,'id_EliminationMethod'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_EliminationMethod',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_InjectionTechnology'); ?>
-		<?php echo $form->textField($model,'id_InjectionTechnology'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_InjectionTechnology',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'ActionsQuantity'); ?>
-		<?php echo $form->textField($model,'ActionsQuantity'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'ActionsQuantity',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Trouble'); ?>
-		<?php echo $form->textField($model,'id_Trouble'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Trouble',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id_Stratigraphy'); ?>
-		<?php echo $form->textField($model,'id_Stratigraphy'); ?>
-	</div>
+                    <?php echo $form->textFieldControlGroup($model,'id_Stratigraphy',array('span'=>5)); ?>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
-	</div>
+        <div class="form-actions">
+        <?php echo TbHtml::submitButton('Search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));?>
+    </div>
 
-<?php $this->endWidget(); ?>
+    <?php $this->endWidget(); ?>
 
 </div><!-- search-form -->

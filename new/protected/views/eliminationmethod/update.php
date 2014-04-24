@@ -1,7 +1,9 @@
 <?php
 /* @var $this EliminationmethodController */
 /* @var $model EliminationMethod */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Elimination Methods'=>array('index'),
 	$model->Name=>array('view','id'=>$model->id),
@@ -16,6 +18,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update EliminationMethod <?php echo $model->id; ?></h1>
+    <h1>Update EliminationMethod <?php echo $model->id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

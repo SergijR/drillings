@@ -1,7 +1,9 @@
 <?php
 /* @var $this ArchController */
 /* @var $model Arch */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Arches'=>array('index'),
 	'Create',

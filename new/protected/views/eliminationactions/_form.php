@@ -1,12 +1,12 @@
 <?php
 /* @var $this EliminationactionsController */
 /* @var $model EliminationActions */
-/* @var $form CActiveForm */
+/* @var $form TbActiveForm */
 ?>
 
 <div class="form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+    <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'id'=>'elimination-actions-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
 	// controller action is handling ajax validation correctly.
@@ -15,80 +15,39 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+    <p class="help-block">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+    <?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-		<?php echo $form->error($model,'id'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'id',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'Number'); ?>
-		<?php echo $form->textField($model,'Number'); ?>
-		<?php echo $form->error($model,'Number'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'Number',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'Depth'); ?>
-		<?php echo $form->textField($model,'Depth'); ?>
-		<?php echo $form->error($model,'Depth'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'Depth',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'InjectionPressure'); ?>
-		<?php echo $form->textField($model,'InjectionPressure'); ?>
-		<?php echo $form->error($model,'InjectionPressure'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'InjectionPressure',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'Material'); ?>
-		<?php echo $form->textField($model,'Material'); ?>
-		<?php echo $form->error($model,'Material'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'Material',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'Note'); ?>
-		<?php echo $form->textField($model,'Note'); ?>
-		<?php echo $form->error($model,'Note'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'Note',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_EliminationMethod'); ?>
-		<?php echo $form->textField($model,'id_EliminationMethod'); ?>
-		<?php echo $form->error($model,'id_EliminationMethod'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'id_EliminationMethod',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_InjectionTechnology'); ?>
-		<?php echo $form->textField($model,'id_InjectionTechnology'); ?>
-		<?php echo $form->error($model,'id_InjectionTechnology'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'id_InjectionTechnology',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'ActionsQuantity'); ?>
-		<?php echo $form->textField($model,'ActionsQuantity'); ?>
-		<?php echo $form->error($model,'ActionsQuantity'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'ActionsQuantity',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_Trouble'); ?>
-		<?php echo $form->textField($model,'id_Trouble'); ?>
-		<?php echo $form->error($model,'id_Trouble'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'id_Trouble',array('span'=>5)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_Stratigraphy'); ?>
-		<?php echo $form->textField($model,'id_Stratigraphy'); ?>
-		<?php echo $form->error($model,'id_Stratigraphy'); ?>
-	</div>
+            <?php echo $form->textFieldControlGroup($model,'id_Stratigraphy',array('span'=>5)); ?>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-	</div>
+        <div class="form-actions">
+        <?php echo TbHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array(
+		    'color'=>TbHtml::BUTTON_COLOR_PRIMARY,
+		    'size'=>TbHtml::BUTTON_SIZE_LARGE,
+		)); ?>
+    </div>
 
-<?php $this->endWidget(); ?>
+    <?php $this->endWidget(); ?>
 
 </div><!-- form -->

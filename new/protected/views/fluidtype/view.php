@@ -1,7 +1,9 @@
 <?php
 /* @var $this FluidtypeController */
 /* @var $model FluidType */
+?>
 
+<?php
 $this->breadcrumbs=array(
 	'Fluid Types'=>array('index'),
 	$model->Name,
@@ -18,9 +20,12 @@ $this->menu=array(
 
 <h1>View FluidType #<?php echo $model->id; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
+<?php $this->widget('zii.widgets.CDetailView',array(
+    'htmlOptions' => array(
+        'class' => 'table table-striped table-condensed table-hover',
+    ),
+    'data'=>$model,
+    'attributes'=>array(
 		'id',
 		'Name',
 	),
