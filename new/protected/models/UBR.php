@@ -46,7 +46,7 @@ class UBR extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'flus' => array(self::HAS_MANY, 'Fluid', 'id_UBR'),
+			'fluids' => array(self::HAS_MANY, 'Fluid', 'id_UBR'),
 			'troubles' => array(self::HAS_MANY, 'Trouble', 'id_UBR'),
 			'uSes' => array(self::HAS_MANY, 'US', 'id1'),
 		);
@@ -59,7 +59,7 @@ class UBR extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'Name' => 'Name',
+			'Name' => 'Название',
 		);
 	}
 

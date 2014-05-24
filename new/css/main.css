@@ -257,3 +257,9 @@ div.search-form
  width: auto; 
  border: 1px solid #ccc; 
 }
+
+#yw10,#yw4{
+    float: right;
+    border-left: 1px solid #ddd;
+    /* margin: 10px; */
+}

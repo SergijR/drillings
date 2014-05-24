@@ -28,7 +28,7 @@ class FluidController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','tree'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -131,10 +131,44 @@ class FluidController extends Controller
 	 */
 	public function actionIndex()
 	{
+	
+		$model = new Fluid('search'); 
 		$dataProvider=new CActiveDataProvider('Fluid');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
+			'model'=>$model
 		));
+	}
+	
+	public function actionTree()
+	{
+	
+		if (Yii::app()->request->isAjaxRequest)
+			{
+					$archs = Arch::model()->with('fluids')->findAll();
+						$my_data = array();
+						foreach ($archs as $arch) {
+							$my_data[$arch->id] = array(
+										'text'     => $_GET['root'].'___'.$arch->Name ,
+										'expanded' => false,
+										'children' => array(
+											array(
+											
+										),
+								));
+
+
+						}
+			
+			
+			echo CTreeView::saveDataAsJson($my_data);
+			
+					//	echo CJSON::encode(array(
+					//	'status'=>'success',
+					//	'content'=>"qqewqewqwe",
+					//	));
+						exit;
+			}
 	}
 
 	/**
