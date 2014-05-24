@@ -151,7 +151,7 @@ return array(
 		//	'connectionString' => 'pgsql:host=localhost;port=5432;dbname=primut_drilling',
 			'emulatePrepare' => true,
 			'username' => 'postgres',
-			'password' => '',
+			'password' => '112233',
 		/*	'username' => 'primut',
 			'password' => '1992cnhfcnm2009',*/
 			'charset' => 'utf8',
