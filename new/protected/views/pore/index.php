@@ -16,7 +16,17 @@ $this->menu=array(
 
 <h1>Pores</h1>
 
-<?php $this->widget('bootstrap.widgets.TbListView',array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-)); ?>
+<?
+	$this->widget('CTreeView', array(
+	'id'=>'pore-tree',
+	//'data' => $my_data
+	'url' => '/index.php?r=pore/tree',
+	));
+
+?>
+
+
+<?php// $this->widget('bootstrap.widgets.TbListView',array(
+	//'dataProvider'=>$dataProvider,
+	//'itemView'=>'_view',
+//)); ?>

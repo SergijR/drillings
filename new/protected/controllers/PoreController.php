@@ -28,7 +28,7 @@ class PoreController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','tree'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -56,6 +56,108 @@ class PoreController extends Controller
 		));
 	}
 
+	
+	public function actionTree()
+		{
+			
+			//if (Yii::app()->request->isAjaxRequest)
+		//	{
+				if ( !$_GET['rooter'] && $_GET['root']=='source' ) {
+				
+					$criteria = new CDbCriteria();
+					$criteria->limit = 10;  
+				
+					$archs = Pore::model()->findAll($criteria);
+					$my_data = array();
+					foreach ($archs as $arch) {
+						$my_data[$arch->id] = array(
+							'text'     => $arch->No ,
+							'id'=> 'Pore|'.$arch->id,
+							'expanded' => false,
+							"hasChildren"=> true
+						);	
+					} 
+					
+				} elseif ($_GET['rooter'] && $_GET['root']=='source') {
+					
+					
+					$id_square = $_GET['rooter'];
+
+					$archs=Yii::app()->db->createCommand()
+					->select(' * ')
+					->from('Pore p')
+					->where('p."id" IN ( SELECT f."id_pore" FROM "Fluid" "f" WHERE f."id_square" = :id_square )')
+					->bindParam(':id_square',$id_square,PDO::PARAM_STR)
+					->queryAll();
+					
+				//	$criteria = new CDbCriteria();
+				//	$criteria->limit = 10;  
+					
+				//	$archs = Pore::model()->findAll($criteria);
+					$my_data = array();
+					foreach ($archs as $arch) {
+
+						$my_data[$arch['id']] = array(
+							'text'     => 'Скважина :'.$arch['No'] ,
+							'id'=> ''.$arch['id'],
+							'expanded' => false,
+							"hasChildren"=> true
+						);	
+					}
+				
+
+	
+				} else {
+				
+				
+				
+				$id_square = $_GET['rooter'];
+				$id_pore = $_GET['root'];
+
+					$archs=Yii::app()->db->createCommand()
+					->select(' * ')
+					->from('Fluid f')
+					->where(' f."id_pore" = :id_pore ')
+					->bindParam(':id_pore',$id_pore,PDO::PARAM_STR)
+					->queryAll();
+					
+				//	$criteria = new CDbCriteria();
+				//	$criteria->limit = 10;  
+					
+				//	$archs = Pore::model()->findAll($criteria);
+					$my_data = array();
+					foreach ($archs as $arch) {
+					
+						$table = '
+						<table><tr>
+						<td>'.$arch['id'].'	</td>
+						<td>'.$arch['interval2'].'</td>
+						</tr></table>'; 
+
+						$my_data[$arch['id']] = array(
+							'text'     => $table ,//$arch['id'],//$table ,
+							'id'=> 'Pore|'.$arch['id'],
+							'expanded' => false,
+						//	"hasChildren"=> true
+						);	
+					}
+				
+				
+				
+				
+				}
+				
+				
+				echo CTreeView::saveDataAsJson($my_data);
+				
+				//	echo CJSON::encode(array(
+				//	'status'=>'success',
+				//	'content'=>"qqewqewqwe",
+				//	));
+				exit;
+			//}
+		}
+	
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.

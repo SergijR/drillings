@@ -6,13 +6,14 @@
 <?php
 $this->breadcrumbs=array(
 	'Fluids',
-);
+	);
 
 $this->menu=array(
 	array('label'=>'Create Fluid','url'=>array('create')),
 	array('label'=>'Manage Fluid','url'=>array('admin')),
 );
 ?>
+
 
 <h1>Fluids</h1>
 
@@ -25,8 +26,10 @@ $this->menu=array(
 	
 	
 	<div>
+	
 <?
-$fluid = Fluid::model()->with('idArch','idFluidType')->findAll();
+	
+//$fluid = Fluid::model()->with('idArch','idFluidType')->findAll();
 //var_dump($fluid);
 //var_dump($model);
 
@@ -52,9 +55,7 @@ $fluid = Fluid::model()->with('idArch','idFluidType')->findAll();
 					'expanded' => true,
 					'children' => ( $my_data_born[$born->id]
 				);
-
 			}
-		
 		$my_data[$arch->id] = array(
 				'text'     => $arch->Name,
 				'expanded' => true,
@@ -115,60 +116,64 @@ array($pore->id=>array(
 //Fluid
 
 
-
-
-
-
-
-
-
-
-
-$tmp_columns  = $model->attributeLabels();
-$tl_columns = array();
-
-
-foreach ($tmp_columns as $key=>$value) {
-
-
-
-
-
-}
 ?>
+	<div>
 	
+	<? var_dump(($model->attributes)); 
+		
+		
+		$id_square = $model->attributes['id_square'];
+		$id_square = '32253DCA-DE63-4B05-ABAC-7A19C974EE53';
+
+		$pores=Yii::app()->db->createCommand()
+		->select(' * ')
+		->from('Pore p')
+		->where('p."id" IN ( SELECT f."id_pore" FROM "Fluid" "f" WHERE f."id_square" = :id_square )')
+		->bindParam(':id_square',$id_square,PDO::PARAM_STR)
+		->queryAll();	
+		
+	//$pores = Pore::model->findAllByAttributes(array('id'=>$model->attributes['']));	
+		
+		
+	var_dump(count($pores));	
+		
+	?>
 	</div>
 
+	
 <?php $this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'fluid-grid',
-	'dataProvider'=>$dataProvider,
+//	'dataProvider'=>$dataProvider,
+	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
+	'id_square',
+	//	'id_pore',
+	//	'id',
 		'Date',
 		'Interval',
 	//	'id_FluidType',
 		'Composition',
 		'Density1',
 		'Viscosity1',
-		'Filtration1',
+		'filtration1',
 		'MudcakeThickness1',
 		'SSV1',
 		'SSV10',
 		'SurfaceTension',
 		/*'id_UBR',
-		'id_Square',
-		'id_Pore',
+		
+		'id_pore',
 		'Density2',
 		'Viscosity2',
 		'Filtration2',
 		'MudcakeThickness2',
 		'id_Stratigraphy',
 		'id_Arch',
-		'id_PoreType',
+		'id_poretype',
 		'ProjectNumber',
 		'interval1',
 		'id_Born',
 		'interval2',*/
 	),
-)); ?>
+));  ?>
