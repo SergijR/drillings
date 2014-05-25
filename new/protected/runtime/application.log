@@ -7828,3 +7828,14 @@ REQUEST_URI=/index.php?r=site/view&id=2628DBF4-6CE3-FC04-1F7F161E5CBB+++++
 HTTP_REFERER=http://new.drillings/
 >>>>>>> 60c42f5790420acd118270a6e332fa165ec570c3
 ---
+2014/04/24 11:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in Z:\home\drillings\new\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\drillings\new\framework\web\CController.php(270): CController->missingAction('view')
+#1 Z:\home\drillings\new\framework\web\CWebApplication.php(282): CController->run('view')
+#2 Z:\home\drillings\new\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 Z:\home\drillings\new\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\drillings\new\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/view&id=2628DBF4-6CE3-FC04-1F7F161E5CBB+++++
+HTTP_REFERER=http://new.drillings/
+---
