@@ -28,7 +28,113 @@ $this->menu=array(
 <?
 $fluid = Fluid::model()->with('idArch','idFluidType')->findAll();
 //var_dump($fluid);
+//var_dump($model);
 
+
+/*foreach ($archs as $arch) {
+
+		$fluids = $arch->fluids;
+			foreach ($fluids as $fluid) {
+			
+				$pore =  $fluid->idPore;
+				$my_data_pore = array();
+				$my_data_pore[$pore->id] = array (
+					'text'     => $pore->Name,
+					'expanded' => true,
+					//'children' => $my_data_born
+				);
+			
+			
+				$my_data_born = array();
+				$born = $fluid->idBorn;
+				$my_data_born[$born->id] = array (
+					'text'     => $born->Name,
+					'expanded' => true,
+					'children' => ( $my_data_born[$born->id]
+				);
+
+			}
+		
+		$my_data[$arch->id] = array(
+				'text'     => $arch->Name,
+				'expanded' => true,
+				'children' => $my_data_born,
+		);
+
+}*/
+/*
+$my_data = array();
+$fluids = Fluid::model()->findAll();
+
+foreach ($fluids as $fluid) {
+$arch = $fluid->idArch;
+$born = $fluid->idBorn;
+$pore = $fluid->idPore;
+
+if (is_array($my_data[$arch->id])) {
+} else {
+$my_data[$arch->id] =array (
+'title'=>$arch->Name,
+'children' => array(), 
+);
+}
+
+if (is_array($my_data[$arch->id]['children'][$born->id])) {
+
+} else {
+
+$my_data[$arch->id]['children'] = array_merge(
+$my_data[$arch->id]['children'], 
+array($born->id=>array(
+'title'=>$born->Name,
+'children' => array(),
+)) );
+}
+
+if (is_array($my_data[$arch->id]['children'][$born->id]['children'][$pore->id])) {
+
+} else {
+
+$my_data[$arch->id]['children'][$born->id]['children'] = array_merge(
+$my_data[$arch->id]['children'][$born->id]['children'], 
+array($pore->id=>array(
+'title'=>$pore->No,
+'children' => array(),
+)) );
+}
+
+}
+*/
+
+
+//var_dump($my_data);
+//Arch
+//Born
+//Pore
+
+//Fluid
+
+
+
+
+
+
+
+
+
+
+
+$tmp_columns  = $model->attributeLabels();
+$tl_columns = array();
+
+
+foreach ($tmp_columns as $key=>$value) {
+
+
+
+
+
+}
 ?>
 	
 	</div>

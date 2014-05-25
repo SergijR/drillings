@@ -31,6 +31,50 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+	
+	public function actionManual()
+	{
+	
+	$archs = new Arch('search');
+	$dataProviderArch=new CActiveDataProvider('Arch');
+		
+	$ubrs = new UBR('search');
+	$dataProviderUBR=new CActiveDataProvider('UBR');
+	/*
+	$borns = new Born('search');
+	$dataProviderBorn=new CActiveDataProvider('Born');
+	
+	$borns = new Born('search');
+	$dataProviderBorn=new CActiveDataProvider('Born');
+	
+	$borns = new Born('search');
+	$dataProviderBorn=new CActiveDataProvider('Born');
+	
+	$borns = new Born('search');
+	$dataProviderBorn=new CActiveDataProvider('Born');
+	
+	$borns = new Born('search');
+	$dataProviderBorn=new CActiveDataProvider('Born');
+	*/
+		$this->render('manual',array(
+			'dataProviderArch'=>$dataProviderArch,
+			'dataProviderUBR'=>$dataProviderUBR,
+			/*'dataProviderBorn'=>$dataProviderBorn,
+			'dataProviderBorn'=>$dataProviderBorn,
+			'dataProviderBorn'=>$dataProviderBorn,
+			'dataProviderBorn'=>$dataProviderBorn,
+			'dataProviderBorn'=>$dataProviderBorn,
+			'dataProviderBorn'=>$dataProviderBorn,*/
+			'archs'=>$archs,
+			'ubrs'=>$ubrs,
+			/*'borns'=>$borns,
+			'borns'=>$borns,
+			'borns'=>$borns,
+			'borns'=>$borns,
+			'borns'=>$borns,
+			'borns'=>$borns,*/
+		));
+	}
 
 	/**
 	 * This is the action to handle external exceptions.

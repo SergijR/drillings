@@ -46,7 +46,7 @@ class Born extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'flus' => array(self::HAS_MANY, 'Fluid', 'id_Born'),
+			'fluids' => array(self::HAS_MANY, 'Fluid', 'id_Born'),
 			'squares' => array(self::HAS_MANY, 'Square', 'id_Born'),
 			'troubles' => array(self::HAS_MANY, 'Trouble', 'id_Born'),
 		);
@@ -59,7 +59,7 @@ class Born extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'Name' => 'Name',
+			'Name' => 'Название',
 		);
 	}
 

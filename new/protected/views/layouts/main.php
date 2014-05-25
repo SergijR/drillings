@@ -26,16 +26,15 @@
     'brandLabel' => '<a href="/" class="brand"><img src="/images/logo.png"></a>',
 	'collapse' => true,
     'items' => array(
-/*	array(
+	array(
             'class' => 'bootstrap.widgets.TbNav',
 			'items'=>array(
-				array('url'=>Yii::app()->getModule('user')->loginUrl, 'label'=>Yii::app()->getModule('user')->t("Login"), 'visible'=>Yii::app()->user->isGuest),
-				array('url'=>Yii::app()->getModule('user')->registrationUrl, 'label'=>Yii::app()->getModule('user')->t("Register"), 'visible'=>Yii::app()->user->isGuest),
-				array('url'=>Yii::app()->getModule('user')->profileUrl, 'label'=>Yii::app()->getModule('user')->t("Profile"), 'visible'=>!Yii::app()->user->isGuest),
-				array('url'=>Yii::app()->getModule('user')->logoutUrl, 'label'=>Yii::app()->getModule('user')->t("Logout").' ('.Yii::app()->user->name.')', 'visible'=>!Yii::app()->user->isGuest),
-				'<li role="menuitem"><a href="" data-toggle="modal" data-target="#myModal">О Проекте</a></li>'
+				array('label' => 'Буровые растворы', 'url' => '#'),
+                array('label' => 'Осложнения', 'url' => '#'),
+                array('label' => 'Справочники', 'url' => '/index.php?r=site/manual'),
+				array('label' => 'Стратиграфия', 'url' => '#')
 			),
-        ),*/
+        ),
 	array(
             'class' => 'bootstrap.widgets.TbNav',
 			'items'=>array(

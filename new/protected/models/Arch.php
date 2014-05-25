@@ -47,8 +47,8 @@ class Arch extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'fluids' => array(self::HAS_MANY, 'Fluid', 'id_Arch'),
-			'squares' => array(self::HAS_MANY, 'Square', 'id_Arch'),
-			'troubles' => array(self::HAS_MANY, 'Trouble', 'id_Arch'),
+			'squares' => array(self::HAS_MANY, 'Square', 'id'),
+			'troubles' => array(self::HAS_MANY, 'Trouble', 'id'),
 		);
 	}
 
@@ -59,7 +59,7 @@ class Arch extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'Name' => t('Name'),
+			'Name' => 'Название',
 		);
 	}
 
