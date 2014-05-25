@@ -29,7 +29,7 @@
 	array(
             'class' => 'bootstrap.widgets.TbNav',
 			'items'=>array(
-				array('label' => 'Буровые растворы', 'url' => '/index.php?r=fluid'),
+				array('label' => 'Буровые растворы', 'url' => '#'),
                 array('label' => 'Осложнения', 'url' => '#'),
                 array('label' => 'Справочники', 'url' => '/index.php?r=site/manual'),
 				array('label' => 'Стратиграфия', 'url' => '#')

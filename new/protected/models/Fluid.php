@@ -11,21 +11,21 @@
  * @property string $Composition
  * @property double $Density1
  * @property integer $Viscosity1
- * @property double $Filtration1
+ * @property double $filtration1
  * @property double $MudcakeThickness1
  * @property double $SSV1
  * @property double $SSV10
  * @property double $SurfaceTension
  * @property string $id_UBR
- * @property string $id_Square
- * @property string $id_Pore
+ * @property string $id_square
+ * @property string $id_pore
  * @property double $Density2
  * @property integer $Viscosity2
  * @property double $Filtration2
  * @property double $MudcakeThickness2
  * @property string $id_Stratigraphy
  * @property string $id_Arch
- * @property string $id_PoreType
+ * @property string $id_poretype
  * @property string $ProjectNumber
  * @property double $interval1
  * @property string $id_Born
@@ -61,11 +61,11 @@ class Fluid extends CActiveRecord
 		return array(
 			array('id', 'required'),
 			array('Viscosity1, Viscosity2', 'numerical', 'integerOnly'=>true),
-			array('Density1, Filtration1, MudcakeThickness1, SSV1, SSV10, SurfaceTension, Density2, Filtration2, MudcakeThickness2, interval1, interval2', 'numerical'),
-			array('Date, Interval, id_FluidType, Composition, id_UBR, id_Square, id_Pore, id_Stratigraphy, id_Arch, id_PoreType, ProjectNumber, id_Born', 'safe'),
+			array('Density1, filtration1, MudcakeThickness1, SSV1, SSV10, SurfaceTension, Density2, Filtration2, MudcakeThickness2, interval1, interval2', 'numerical'),
+			array('Date, Interval, id_FluidType, Composition, id_UBR, id_square, id_pore, id_Stratigraphy, id_Arch, id_poretype, ProjectNumber, id_Born', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, Date, Interval, id_FluidType, Composition, Density1, Viscosity1, Filtration1, MudcakeThickness1, SSV1, SSV10, SurfaceTension, id_UBR, id_Square, id_Pore, Density2, Viscosity2, Filtration2, MudcakeThickness2, id_Stratigraphy, id_Arch, id_PoreType, ProjectNumber, interval1, id_Born, interval2', 'safe', 'on'=>'search'),
+			array('id, Date, Interval, id_FluidType, Composition, Density1, Viscosity1, filtration1, MudcakeThickness1, SSV1, SSV10, SurfaceTension, id_UBR, id_square, id_pore, Density2, Viscosity2, Filtration2, MudcakeThickness2, id_Stratigraphy, id_Arch, id_poretype, ProjectNumber, interval1, id_Born, interval2', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,11 +79,11 @@ class Fluid extends CActiveRecord
 		return array(
 			'idArch' => array(self::BELONGS_TO, 'Arch', 'id_Arch'),
 			'idBorn' => array(self::BELONGS_TO, 'Born', 'id_Born'),
-			'idPoreType' => array(self::BELONGS_TO, 'PoreType', 'id_PoreType'),
+			'idPoreType' => array(self::BELONGS_TO, 'PoreType', 'id_poretype'),
 			'idStratigraphy' => array(self::BELONGS_TO, 'Stratigraphy', 'id_Stratigraphy'),
 			'idFluidType' => array(self::BELONGS_TO, 'FluidType', 'id_FluidType'),
-			'idPore' => array(self::BELONGS_TO, 'Pore', 'id_Pore'),
-			'idSquare' => array(self::BELONGS_TO, 'Square', 'id_Square'),
+			'idPore' => array(self::BELONGS_TO, 'Pore', 'id_pore'),
+			'idSquare' => array(self::BELONGS_TO, 'Square', 'id_square'),
 			'idUBR' => array(self::BELONGS_TO, 'UBR', 'id_UBR'),
 		);
 	}
@@ -101,21 +101,21 @@ class Fluid extends CActiveRecord
 			'Composition' => 'Composition',
 			'Density1' => 'Density1',
 			'Viscosity1' => 'Viscosity1',
-			'Filtration1' => 'Filtration1',
+			'filtration1' => 'filtration1',
 			'MudcakeThickness1' => 'Mudcake Thickness1',
 			'SSV1' => 'Ssv1',
 			'SSV10' => 'Ssv10',
 			'SurfaceTension' => 'Surface Tension',
 			'id_UBR' => 'Id Ubr',
-			'id_Square' => 'Id Square',
-			'id_Pore' => 'Id Pore',
+			'id_square' => 'Id Square',
+			'id_pore' => 'Id Pore',
 			'Density2' => 'Density2',
 			'Viscosity2' => 'Viscosity2',
 			'Filtration2' => 'Filtration2',
 			'MudcakeThickness2' => 'Mudcake Thickness2',
 			'id_Stratigraphy' => 'Id Stratigraphy',
 			'id_Arch' => 'Id Arch',
-			'id_PoreType' => 'Id Pore Type',
+			'id_poretype' => 'Id Pore Type',
 			'ProjectNumber' => 'Project Number',
 			'interval1' => 'Interval1',
 			'id_Born' => 'Id Born',
@@ -148,21 +148,21 @@ class Fluid extends CActiveRecord
 		$criteria->compare('Composition',$this->Composition,true);
 		$criteria->compare('Density1',$this->Density1);
 		$criteria->compare('Viscosity1',$this->Viscosity1);
-		$criteria->compare('Filtration1',$this->Filtration1);
+		$criteria->compare('filtration1',$this->filtration1);
 		$criteria->compare('MudcakeThickness1',$this->MudcakeThickness1);
 		$criteria->compare('SSV1',$this->SSV1);
 		$criteria->compare('SSV10',$this->SSV10);
 		$criteria->compare('SurfaceTension',$this->SurfaceTension);
 		$criteria->compare('id_UBR',$this->id_UBR,true);
-		$criteria->compare('id_Square',$this->id_Square,true);
-		$criteria->compare('id_Pore',$this->id_Pore,true);
+		$criteria->compare('id_square',$this->id_square,true);
+		$criteria->compare('id_pore',$this->id_pore,true);
 		$criteria->compare('Density2',$this->Density2);
 		$criteria->compare('Viscosity2',$this->Viscosity2);
 		$criteria->compare('Filtration2',$this->Filtration2);
 		$criteria->compare('MudcakeThickness2',$this->MudcakeThickness2);
 		$criteria->compare('id_Stratigraphy',$this->id_Stratigraphy,true);
 		$criteria->compare('id_Arch',$this->id_Arch,true);
-		$criteria->compare('id_PoreType',$this->id_PoreType,true);
+		$criteria->compare('id_poretype',$this->id_poretype,true);
 		$criteria->compare('ProjectNumber',$this->ProjectNumber,true);
 		$criteria->compare('interval1',$this->interval1);
 		$criteria->compare('id_Born',$this->id_Born,true);
