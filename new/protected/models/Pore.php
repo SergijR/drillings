@@ -7,7 +7,7 @@
  * @property string $id
  * @property string $No
  * @property string $Construction
- * @property string $id_Square
+ * @property string $id_square
  * @property integer $Bottomhole
  *
  * The followings are the available model relations:
@@ -33,10 +33,10 @@ class Pore extends CActiveRecord
 		return array(
 			array('id', 'required'),
 			array('Bottomhole', 'numerical', 'integerOnly'=>true),
-			array('No, Construction, id_Square', 'safe'),
+			array('No, Construction, id_square', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, No, Construction, id_Square, Bottomhole', 'safe', 'on'=>'search'),
+			array('id, No, Construction, id_square, Bottomhole', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -48,7 +48,7 @@ class Pore extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idSquare' => array(self::BELONGS_TO, 'Square', 'id_Square'),
+			'idSquare' => array(self::BELONGS_TO, 'Square', 'id_square'),
 		);
 	}
 
@@ -61,7 +61,7 @@ class Pore extends CActiveRecord
 			'id' => 'ID',
 			'No' => 'No',
 			'Construction' => 'Construction',
-			'id_Square' => 'Id Square',
+			'id_square' => 'Id Square',
 			'Bottomhole' => 'Bottomhole',
 		);
 	}
@@ -87,7 +87,7 @@ class Pore extends CActiveRecord
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('No',$this->No,true);
 		$criteria->compare('Construction',$this->Construction,true);
-		$criteria->compare('id_Square',$this->id_Square,true);
+		$criteria->compare('id_square',$this->id_square,true);
 		$criteria->compare('Bottomhole',$this->Bottomhole);
 
 		return new CActiveDataProvider($this, array(

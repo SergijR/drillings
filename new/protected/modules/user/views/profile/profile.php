@@ -26,15 +26,6 @@ $this->menu=array(
 </div>
 <?php endif; ?>
 
-<?php $this->widget('bootstrap.widgets.TbDetailView', array(
-    'data'=>array('id'=>1, 'firstName'=>'Mark', 'lastName'=>'Otto', 'language'=>'CSS'),
-    'attributes'=>array(
-        array('name'=>'firstName', 'label'=>'First name'),
-        array('name'=>'lastName', 'label'=>'Last name'),
-        array('name'=>'language', 'label'=>'Language'),
-    ),
-)); ?>
-
 <table class="detail-view table table-striped table-condensed">
 	<tr>
 		<th><?php echo CHtml::encode($model->getAttributeLabel('username')); ?></th>
@@ -62,10 +53,10 @@ $this->menu=array(
 		<th><?php echo CHtml::encode($model->getAttributeLabel('create_at')); ?></th>
     	<td><?php echo $model->create_at; ?></td>
 	</tr>
-	<tr>
-		<th><?php echo CHtml::encode($model->getAttributeLabel('lastvisit_at')); ?></th>
-    	<td><?php echo $model->lastvisit_at; ?></td>
-	</tr>
+	<!--<tr>
+		<th><?php //echo CHtml::encode($model->getAttributeLabel('lastvisit_at')); ?></th>
+    	<td><?php// echo $model->lastvisit_at; ?></td>
+	</tr>-->
 	<tr>
 		<th><?php echo CHtml::encode($model->getAttributeLabel('status')); ?></th>
     	<td><?php echo CHtml::encode(User::itemAlias("UserStatus",$model->status)); ?></td>

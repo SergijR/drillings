@@ -16,6 +16,7 @@ $this->breadcrumbs=array(
 <li role="menuitem" class=""><a data-toggle="tab" tabindex="-1" href="#tab_5"><i class="icon-user"></i>Тип осложнения</a></li>
 <li role="menuitem" class=""><a data-toggle="tab" tabindex="-1" href="#tab_6"><i class="icon-user"></i>Тип раствора</a></li>
 <li role="menuitem" class=""><a data-toggle="tab" tabindex="-1" href="#tab_7"><i class="icon-user"></i>Конструкция скважин</a></li>
+<li role="menuitem" class=""><a data-toggle="tab" tabindex="-1" href="#tab_8"><i class="icon-user"></i>Стратиграфия</a></li>
 </ul>
 
 <div class="tab-content">
@@ -81,7 +82,7 @@ $this->widget('bootstrap.widgets.TbGridView',array(
 	),
 ));
 ?></div>
-<div id="tab_7" class="tab-pane fade"><?php 
+<div id="tab_8" class="tab-pane fade"><?php 
 		$this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'ubr-grid',
 	'dataProvider'=>$dataProviderUBR,

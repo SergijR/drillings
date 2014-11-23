@@ -1,0 +1,1495 @@
+2014/06/13 00:03:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:03:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:05:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:05:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:08:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:08:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:11:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=fluid
+---
+2014/06/13 00:11:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=fluid
+---
+2014/06/13 00:13:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=fluid
+---
+2014/06/13 00:14:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=fluid
+---
+2014/06/13 00:14:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:14:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:14:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:14:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:15:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:15:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:16:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:16:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:19:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:19:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:20:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:20:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/06/13 00:22:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/tree')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/tree
+---
+2014/06/15 22:03:51 [error] [php] include(UserMenu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\drillings\www\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWidgetFactory.php(146): import()
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(172): ProfileController->createWidget()
+#3 Z:\home\drillings\www\protected\views\layouts\sidebar\profile_s.php(10): ProfileController->widget()
+#4 Z:\home\drillings\www\framework\web\CBaseController.php(126): require()
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(95): ProfileController->renderInternal()
+#6 Z:\home\drillings\www\framework\web\CController.php(784): ProfileController->renderFile()
+#7 Z:\home\drillings\www\protected\modules\user\controllers\ProfileController.php(21): ProfileController->render()
+#8 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): ProfileController->actionProfile()
+#9 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): ProfileController->runAction()
+#11 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): ProfileController->filterAccessControl()
+#14 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\drillings\www\framework\web\CController.php(265): ProfileController->runActionWithFilters()
+#17 Z:\home\drillings\www\framework\web\CWebApplication.php(282): ProfileController->run()
+#18 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/profile
+in Z:\home\drillings\www\protected\views\layouts\sidebar\profile_s.php (10)
+in Z:\home\drillings\www\protected\modules\user\controllers\ProfileController.php (21)
+in Z:\home\drillings\www\index.php (15)
+2014/06/15 22:04:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.ltswitch" is not defined.' in Z:\home\drillings\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\drillings\www\framework\base\CModule.php(105): CComponent->__get('ltswitch')
+#1 Z:\home\drillings\www\protected\modules\user\views\layouts\main.php(45): CModule->__get('ltswitch')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#5 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#6 Z:\home\drillings\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#7 Z:\home\drillings\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\drillings\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\drillings\www\protected\views\layouts\sidebar\profile_s.php(14): CBaseController->endContent()
+#10 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#11 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#12 Z:\home\drillings\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#13 Z:\home\drillings\www\protected\modules\user\controllers\ProfileController.php(21): CController->render('profile', Array)
+#14 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): ProfileController->actionProfile()
+#15 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#24 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/profile')
+#25 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\drillings\www\index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=user/profile
+HTTP_REFERER=http://drillings/
+---
+2014/06/15 22:20:29 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (Z:\home\drillings\www\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 Z:\home\drillings\www\protected\extensions\bootstrap\helpers\TbHtml.php(1273): tag()
+#2 Z:\home\drillings\www\protected\extensions\bootstrap\helpers\TbHtml.php(6303): tag()
+#3 Z:\home\drillings\www\protected\extensions\bootstrap\helpers\TbHtml.php(6025): menuHeader()
+#4 Z:\home\drillings\www\protected\views\layouts\sidebar\profile_s.php(21): navList()
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(126): require()
+#6 Z:\home\drillings\www\framework\web\CBaseController.php(95): ProfileController->renderInternal()
+#7 Z:\home\drillings\www\framework\web\CController.php(784): ProfileController->renderFile()
+#8 Z:\home\drillings\www\protected\modules\user\controllers\ProfileController.php(21): ProfileController->render()
+#9 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): ProfileController->actionProfile()
+#10 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): ProfileController->runAction()
+#12 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): ProfileController->filterAccessControl()
+#15 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#17 Z:\home\drillings\www\framework\web\CController.php(265): ProfileController->runActionWithFilters()
+#18 Z:\home\drillings\www\framework\web\CWebApplication.php(282): ProfileController->run()
+#19 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/profile
+in Z:\home\drillings\www\protected\extensions\bootstrap\helpers\TbHtml.php (1273)
+in Z:\home\drillings\www\protected\extensions\bootstrap\helpers\TbHtml.php (6303)
+in Z:\home\drillings\www\protected\extensions\bootstrap\helpers\TbHtml.php (6025)
+2014/07/08 21:50:39 [error] [exception.CException] exception 'CException' with message 'UserModule and its behaviors do not have a method or closure named "translite".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\layouts\main.php(42): CComponent->__call('translite', Array)
+#1 Z:\home\drillings\www\protected\views\layouts\main.php(42): UserModule->translite('Login')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#5 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 Z:\home\drillings\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 Z:\home\drillings\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\drillings\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\drillings\www\protected\views\layouts\sidebar\column_tree.php(99): CBaseController->endContent()
+#10 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#11 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#12 Z:\home\drillings\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#13 Z:\home\drillings\www\protected\controllers\PoreController.php(278): CController->render('index', Array)
+#14 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#15 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#24 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#25 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\drillings\www\index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/
+---
+2014/07/08 21:53:45 [error] [exception.CException] exception 'CException' with message 'UserModule and its behaviors do not have a method or closure named "trans".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\layouts\main.php(42): CComponent->__call('trans', Array)
+#1 Z:\home\drillings\www\protected\views\layouts\main.php(42): UserModule->trans('Login')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#5 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 Z:\home\drillings\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 Z:\home\drillings\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\drillings\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\drillings\www\protected\views\layouts\sidebar\column_tree.php(99): CBaseController->endContent()
+#10 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#11 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#12 Z:\home\drillings\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#13 Z:\home\drillings\www\protected\controllers\PoreController.php(278): CController->render('index', Array)
+#14 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#15 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#24 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#25 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\drillings\www\index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/
+---
+2014/07/20 23:04:15 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "table".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('table', Array, true)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(125): CController->render('table', Array)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/07/20 23:04:22 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "table".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('table', Array, true)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(125): CController->render('table', Array)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5%20%20&root=2C0E3B08-75F0-B27C-DC96D352029F+++++
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/07/20 23:04:35 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "table".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('table', Array, true)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(125): CController->render('table', Array)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5%20%20&root=F0D7AF4A-A3B9-0ABB-4CC5ADEC4787+++++
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/07/20 23:04:57 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "table".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('table', Array, true)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(125): CController->render('table', Array)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5%20%20&root=2C0E3B08-75F0-B27C-DC96D352029F+++++
+---
+2014/07/20 23:05:16 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "44444".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('44444', Array, true)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(125): CController->render('44444', Array)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5%20%20&root=2C0E3B08-75F0-B27C-DC96D352029F+++++
+---
+2014/07/22 20:06:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controller/action".' in Z:\home\drillings\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('controller/acti...')
+#1 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\drillings\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=controller/action
+HTTP_REFERER=http://drillings/index.php?r=pore/index
+---
+2014/07/22 20:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controller/action".' in Z:\home\drillings\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('controller/acti...')
+#1 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\drillings\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=controller/action
+HTTP_REFERER=http://drillings/index.php?r=pore/index
+---
+2014/07/22 20:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php?r=pore/tree".' in Z:\home\drillings\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index.php?r=por...')
+#1 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\drillings\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=index.php?r=pore/tree
+HTTP_REFERER=http://drillings/index.php?r=pore/index
+---
+2014/07/22 20:14:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('Gridview')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/Gridview')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/Gridview&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5%20%20&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore/index
+---
+2014/07/22 20:15:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('Gridview')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/Gridview')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/Gridview&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5%20%20&root=source
+---
+2014/07/22 20:16:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('Gridview')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/Gridview')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/Gridview
+---
+2014/07/22 20:16:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('gridview')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/gridview')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/gridview
+---
+2014/07/22 20:16:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('gridview')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/gridview')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/gridview
+---
+2014/07/22 20:16:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\drillings\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('gridview')
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/gridview')
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=pore/gridview
+---
+2014/07/22 20:18:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gredview".' in Z:\home\drillings\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(270): CController->missingAction('gredview')
+#1 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('gredview')
+#2 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/gredview')
+#3 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\drillings\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=pore/gredview&rooter=BBCBE38D-2C16-74FF-72AC5C113BD7%20%20%20%20%20&root=source
+HTTP_REFERER=http://drillings/index.php?r=pore/gridview
+---
+2014/07/22 20:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gredview".' in Z:\home\drillings\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(270): CController->missingAction('gredview')
+#1 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('gredview')
+#2 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/gredview')
+#3 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\drillings\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=pore/gredview&rooter=BBCBE38D-2C16-74FF-72AC5C113BD7%20%20%20%20%20&root=source
+---
+2014/07/22 20:42:22 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.name" is not defined.' in Z:\home\drillings\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\pore\index.php(34): CComponent->__get('name')
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#3 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 Z:\home\drillings\www\protected\controllers\PoreController.php(292): CController->render('index', Array)
+#6 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#7 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#16 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#17 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 Z:\home\drillings\www\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/index.php?r=pore/gridview&rooter=BBCBE38D-2C16-74FF-72AC5C113BD7%20%20&root=source
+---
+2014/09/06 22:29:12 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.attributes" is not defined.' in Z:\home\drillings\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\fluid\index.php(125): CComponent->__get('attributes')
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#3 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 Z:\home\drillings\www\protected\controllers\FluidController.php(138): CController->render('index', Array)
+#6 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): FluidController->actionIndex()
+#7 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#16 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid')
+#17 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 Z:\home\drillings\www\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=fluid
+---
+2014/09/06 23:40:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('test')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('fluid/test')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=fluid/test
+---
+2014/10/18 20:32:41 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in Z:\home\drillings\www\protected\extensions\bootstrap\widgets\TbGridView.php:185
+Stack trace:
+#0 Z:\home\drillings\www\framework\zii\widgets\grid\CGridView.php(383): TbGridView->createDataColumn('???????????????...')
+#1 Z:\home\drillings\www\protected\extensions\bootstrap\widgets\TbGridView.php(161): CGridView->initColumns()
+#2 Z:\home\drillings\www\framework\zii\widgets\grid\CGridView.php(359): TbGridView->initColumns()
+#3 Z:\home\drillings\www\protected\extensions\bootstrap\widgets\TbGridView.php(99): CGridView->init()
+#4 Z:\home\drillings\www\framework\web\CBaseController.php(147): TbGridView->init()
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#6 Z:\home\drillings\www\protected\views\arch\index_home.php(30): CBaseController->widget('bootstrap.widge...', Array)
+#7 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#8 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#9 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#10 Z:\home\drillings\www\protected\views\site\index.php(20): CController->renderPartial('/arch/index_hom...', Array)
+#11 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#12 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', NULL, true)
+#13 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', NULL, true)
+#14 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#15 Z:\home\drillings\www\protected\controllers\SiteController.php(32): CController->render('index')
+#16 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#24 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#26 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#27 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 Z:\home\drillings\www\index.php(15): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/10/18 20:37:55 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in Z:\home\drillings\www\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 Z:\home\drillings\www\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 Z:\home\drillings\www\protected\extensions\bootstrap\widgets\TbGridView.php(99): CGridView->init()
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(147): TbGridView->init()
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#4 Z:\home\drillings\www\protected\views\site\manual.php(54): CBaseController->widget('bootstrap.widge...', Array)
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#6 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#7 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#8 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('manual', Array, true)
+#9 Z:\home\drillings\www\protected\controllers\SiteController.php(76): CController->render('manual', Array)
+#10 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): SiteController->actionManual()
+#11 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('manual')
+#20 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/manual')
+#21 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 Z:\home\drillings\www\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=site/manual
+HTTP_REFERER=http://drillings/index.php
+---
+2014/10/18 20:46:17 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in Z:\home\drillings\www\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 Z:\home\drillings\www\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 Z:\home\drillings\www\protected\extensions\bootstrap\widgets\TbGridView.php(99): CGridView->init()
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(147): TbGridView->init()
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#4 Z:\home\drillings\www\protected\views\site\manual.php(54): CBaseController->widget('bootstrap.widge...', Array)
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#6 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#7 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#8 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('manual', Array, true)
+#9 Z:\home\drillings\www\protected\controllers\SiteController.php(76): CController->render('manual', Array)
+#10 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): SiteController->actionManual()
+#11 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('manual')
+#20 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/manual')
+#21 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 Z:\home\drillings\www\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=site/manual
+HTTP_REFERER=http://drillings/index.php
+---
+2014/10/18 23:08:48 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in Z:\home\drillings\www\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 Z:\home\drillings\www\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 Z:\home\drillings\www\protected\extensions\bootstrap\widgets\TbGridView.php(99): CGridView->init()
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(147): TbGridView->init()
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#4 Z:\home\drillings\www\protected\views\site\manual.php(54): CBaseController->widget('bootstrap.widge...', Array)
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#6 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#7 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#8 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('manual', Array, true)
+#9 Z:\home\drillings\www\protected\controllers\SiteController.php(76): CController->render('manual', Array)
+#10 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): SiteController->actionManual()
+#11 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('manual')
+#20 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/manual')
+#21 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 Z:\home\drillings\www\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=site/manual
+HTTP_REFERER=http://drillings/index.php
+---
+2014/10/27 23:44:59 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "_renderpage".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\pore\index.php(28): CController->renderPartial('_renderpage', NULL, true)
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#3 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 Z:\home\drillings\www\protected\controllers\PoreController.php(245): CController->render('index', Array)
+#6 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#7 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#16 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#17 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 Z:\home\drillings\www\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/
+---
+2014/10/27 23:46:27 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "_renderpage".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\pore\index.php(28): CController->renderPartial('_renderpage', NULL, true)
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#3 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 Z:\home\drillings\www\protected\controllers\PoreController.php(245): CController->render('index', Array)
+#6 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#7 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#16 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#17 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 Z:\home\drillings\www\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/
+---
+2014/10/27 23:46:30 [error] [exception.CException] exception 'CException' with message 'PoreController cannot find the requested view "_renderpage".' in Z:\home\drillings\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\drillings\www\protected\views\pore\index.php(28): CController->renderPartial('_renderpage', NULL, true)
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#3 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 Z:\home\drillings\www\protected\controllers\PoreController.php(245): CController->render('index', Array)
+#6 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#7 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#16 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#17 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 Z:\home\drillings\www\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/
+---
+2014/11/19 13:50:50 [error] [exception.CException] exception 'CException' with message 'The asset "Z:\home\drillings\www\protected\assets" to be published does not exist.' in Z:\home\drillings\www\framework\web\CAssetManager.php:257
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\helpers\CHtml.php(1295): CAssetManager->publish('Z:\home\drillin...', false)
+#1 Z:\home\drillings\www\protected\views\layouts\main.php(19): CHtml::asset('Z:\home\drillin...')
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#3 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#4 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#5 Z:\home\drillings\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 Z:\home\drillings\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 Z:\home\drillings\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\drillings\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\drillings\www\protected\views\layouts\sidebar\column_tree.php(50): CBaseController->endContent()
+#10 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#11 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#12 Z:\home\drillings\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#13 Z:\home\drillings\www\protected\controllers\PoreController.php(246): CController->render('index', Array)
+#14 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#15 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#24 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#25 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\drillings\www\index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=pore
+HTTP_REFERER=http://drillings/
+---
+2014/11/19 14:03:59 [error] [php] include(DislocOrders.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\drillings\www\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(79): spl_autoload_call()
+#1 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree()
+#2 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#4 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#7 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#10 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree
+in Z:\home\drillings\www\protected\controllers\PoreController.php (79)
+in Z:\home\drillings\www\index.php (15)
+2014/11/19 14:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request " pore/tree".' in Z:\home\drillings\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController(' pore/tree')
+#1 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\drillings\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=%20pore/tree&rooter=BBCBE38D-2C16-74FF-72AC5C113BD7
+---
+2014/11/19 14:39:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/19 14:39:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 Z:\home\drillings\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#9 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\drillings\www\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+---
+2014/11/19 14:41:02 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\drillings\www\protected\controllers\PoreController.php:121) (Z:\home\drillings\www\protected\controllers\PoreController.php:141)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (141)
+in Z:\home\drillings\www\index.php (15)
+2014/11/19 14:42:08 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\drillings\www\protected\controllers\PoreController.php:121) (Z:\home\drillings\www\protected\controllers\PoreController.php:141)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (141)
+in Z:\home\drillings\www\index.php (15)
+2014/11/19 14:43:12 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\drillings\www\protected\controllers\PoreController.php:121) (Z:\home\drillings\www\protected\controllers\PoreController.php:141)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (141)
+in Z:\home\drillings\www\index.php (15)
+2014/11/19 14:46:02 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\drillings\www\protected\controllers\PoreController.php:121) (Z:\home\drillings\www\protected\controllers\PoreController.php:141)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (141)
+in Z:\home\drillings\www\index.php (15)
+2014/11/19 14:47:21 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\drillings\www\protected\controllers\PoreController.php:121) (Z:\home\drillings\www\protected\controllers\PoreController.php:143)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (143)
+in Z:\home\drillings\www\index.php (15)
+2014/11/19 14:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dislocOrders/getData".' in Z:\home\drillings\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('dislocOrders/ge...')
+#1 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\drillings\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=dislocOrders/getData
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/23 23:05:37 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\drillings\www\protected\controllers\PoreController.php:129) (Z:\home\drillings\www\protected\controllers\PoreController.php:130)
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#2 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#5 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#7 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#8 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#9 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (130)
+in Z:\home\drillings\www\index.php (15)
+2014/11/23 23:11:56 [error] [exception.CException] exception 'CException' with message 'PoreController and its behaviors do not have a method or closure named "exportData".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(129): CComponent->__call('exportData', Array)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(129): PoreController->exportData(Array, 0)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/23 23:12:07 [error] [exception.CException] exception 'CException' with message 'PoreController and its behaviors do not have a method or closure named "exportData".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(129): CComponent->__call('exportData', Array)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(129): PoreController->exportData(Array, 0)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/23 23:12:09 [error] [exception.CException] exception 'CException' with message 'PoreController and its behaviors do not have a method or closure named "exportData".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(129): CComponent->__call('exportData', Array)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(129): PoreController->exportData(Array, 0)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+---
+2014/11/23 23:13:25 [error] [exception.CException] exception 'CException' with message 'PoreController and its behaviors do not have a method or closure named "exportData".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(129): CComponent->__call('exportData', Array)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(129): PoreController->exportData(Array, 0)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/23 23:13:27 [error] [exception.CException] exception 'CException' with message 'PoreController and its behaviors do not have a method or closure named "exportData".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(129): CComponent->__call('exportData', Array)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(129): PoreController->exportData(Array, 0)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/23 23:20:40 [error] [exception.CException] exception 'CException' with message 'PoreController and its behaviors do not have a method or closure named "exportData".' in Z:\home\drillings\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(129): CComponent->__call('exportData', Array)
+#1 Z:\home\drillings\www\protected\controllers\PoreController.php(129): PoreController->exportData(Array, 0)
+#2 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#3 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('tree2')
+#12 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore/tree2')
+#13 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\drillings\www\index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=pore/tree2
+HTTP_REFERER=http://drillings/index.php?r=pore
+---
+2014/11/23 23:36:46 [error] [php] include(EuiDataGrid.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\drillings\www\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(128): spl_autoload_call()
+#1 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#2 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#4 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#7 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#10 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2
+in Z:\home\drillings\www\protected\controllers\PoreController.php (128)
+in Z:\home\drillings\www\index.php (15)
+2014/11/23 23:36:51 [error] [php] include(EuiDataGrid.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\drillings\www\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(128): spl_autoload_call()
+#1 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#2 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#4 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#7 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#10 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2&rooter=3D3E1876-3B4F-4C6D-8049-701A7C3BF5
+in Z:\home\drillings\www\protected\controllers\PoreController.php (128)
+in Z:\home\drillings\www\index.php (15)
+2014/11/23 23:37:09 [error] [php] include(EuiDataGrid.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\drillings\www\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\drillings\www\protected\controllers\PoreController.php(128): spl_autoload_call()
+#1 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionTree2()
+#2 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): PoreController->runAction()
+#4 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\home\drillings\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): PoreController->filterAccessControl()
+#7 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\home\drillings\www\framework\web\CController.php(265): PoreController->runActionWithFilters()
+#10 Z:\home\drillings\www\framework\web\CWebApplication.php(282): PoreController->run()
+#11 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\drillings\www\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=pore/tree2&rooter=BBCBE38D-2C16-74FF-72AC5C113BD7%20
+in Z:\home\drillings\www\protected\controllers\PoreController.php (128)
+in Z:\home\drillings\www\index.php (15)
+2014/11/23 23:58:10 [error] [exception.CException] exception 'CException' with message 'Property "EuiDataGrid.0" is not defined.' in Z:\home\drillings\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWidgetFactory.php(161): CComponent->__set('0', Array)
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PoreController), 'ext.yii-easyui....', Array)
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.yii-easyui....', Array)
+#3 Z:\home\drillings\www\protected\views\pore\index.php(34): CBaseController->widget('ext.yii-easyui....', Array)
+#4 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#6 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#7 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\drillings\www\protected\controllers\PoreController.php(305): CController->render('index', Array)
+#9 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#10 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#17 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#19 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#20 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\drillings\www\index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=pore
+---
+2014/11/23 23:58:33 [error] [exception.CException] exception 'CException' with message 'Property "EuiDataGrid.0" is not defined.' in Z:\home\drillings\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\drillings\www\framework\web\CWidgetFactory.php(161): CComponent->__set('0', Array)
+#1 Z:\home\drillings\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PoreController), 'ext.yii-easyui....', Array)
+#2 Z:\home\drillings\www\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.yii-easyui....', Array)
+#3 Z:\home\drillings\www\protected\views\pore\index.php(34): CBaseController->widget('ext.yii-easyui....', Array)
+#4 Z:\home\drillings\www\framework\web\CBaseController.php(126): require('Z:\home\drillin...')
+#5 Z:\home\drillings\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\drillin...', Array, true)
+#6 Z:\home\drillings\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\drillin...', Array, true)
+#7 Z:\home\drillings\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\drillings\www\protected\controllers\PoreController.php(305): CController->render('index', Array)
+#9 Z:\home\drillings\www\framework\web\actions\CInlineAction.php(49): PoreController->actionIndex()
+#10 Z:\home\drillings\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 Z:\home\drillings\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 Z:\home\drillings\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\drillings\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\drillings\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\drillings\www\framework\web\CController.php(291): CFilterChain->run()
+#17 Z:\home\drillings\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\drillings\www\framework\web\CWebApplication.php(282): CController->run('')
+#19 Z:\home\drillings\www\framework\web\CWebApplication.php(141): CWebApplication->runController('pore')
+#20 Z:\home\drillings\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\drillings\www\index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=pore
+---

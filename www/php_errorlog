@@ -1,0 +1,2 @@
+[17-Feb-2014 12:17:12 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/primut/public_html/../www/framework/yii.php' (include_path='.:/usr/local/php53/pear') in /home/primut/public_html/index.php on line 13
+[17-Feb-2014 12:19:28 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/primut/public_html/framework/yii.php' (include_path='.:/usr/local/php53/pear') in /home/primut/public_html/index.php on line 13
