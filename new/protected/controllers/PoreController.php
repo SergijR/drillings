@@ -71,7 +71,7 @@ class PoreController extends Controller
 					$my_data = array();
 					foreach ($archs as $arch) {
 						$my_data[$arch->id] = array(
-							'text'     => $arch->No ,
+							'text'     => 'Скважина :'.$arch->No ,
 							'id'=> 'Pore|'.$arch->id,
 							'expanded' => false,
 							"hasChildren"=> true
