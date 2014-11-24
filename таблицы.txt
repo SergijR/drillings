@@ -1,0 +1,15 @@
+Arch - Зоны
+Born - Месторождение
+Square - Площадь
+Pore - Скважина
+PoreType - Конструкция скважины
+UBR - УБР
+Level- Уровень
+Fluid - Буровые растворы
+FluidType - Тип растворов
+Trouble - Осложнения
+TroubleType - Тип осложнения
+ElementionActions - Мероприятия
+InjectionTechnology - Технология закачки
+ElementionMetod - Способ ликведации
+Stratigraphy - Стратеграфия

@@ -6,7 +6,7 @@ class PoreController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/sidebar/column_tree';
 
 	/**
 	 * @return array action filters
@@ -69,6 +69,7 @@ class PoreController extends Controller
 				
 					$archs = Pore::model()->findAll($criteria);
 					$my_data = array();
+<<<<<<< HEAD
 					foreach ($archs as $arch) {
 						$my_data[$arch->id] = array(
 							'text'     => 'Скважина :'.$arch->No ,
@@ -77,6 +78,8 @@ class PoreController extends Controller
 							"hasChildren"=> true
 						);	
 					} 
+=======
+>>>>>>> 473527c436d53e50ec73c41c426c67b811856c22
 					
 				} elseif ($_GET['rooter'] && $_GET['root']=='source') {
 					
@@ -104,8 +107,7 @@ class PoreController extends Controller
 							"hasChildren"=> true
 						);	
 					}
-				
-
+			
 	
 				} else {
 				
@@ -123,25 +125,40 @@ class PoreController extends Controller
 					
 				//	$criteria = new CDbCriteria();
 				//	$criteria->limit = 10;  
-					
+
 				//	$archs = Pore::model()->findAll($criteria);
 					$my_data = array();
 					foreach ($archs as $arch) {
 					
-						$table = '
-						<table><tr>
-						<td>'.$arch['id'].'	</td>
+					
+					
+						$table = '<table>
+						<tr>
+						<td>'.$arch['Date'].'	</td>
+						<td>'.$arch['Interval'].'</td>
+						<td>'.$arch['id_FluidType'].'</td>
+						<td>'.$arch['Composition'].'</td>
+						<td>'.$arch['Density1'].'</td>
+						<td>'.$arch['Viscosity1'].'</td>
+						<td>'.$arch['filtration1'].'</td>
+						<td>'.$arch['MudcakeThickness1'].'</td>
+						<td>'.$arch['SSV1'].'</td>
+						<td>'.$arch['SSV10'].'</td>
+						<td>'.$arch['SurfaceTension'].'</td>
+						<td>'.$arch['ProjectNumber'].'</td>
+						<td>'.$arch['interval1'].'</td>
 						<td>'.$arch['interval2'].'</td>
 						</tr></table>'; 
 
 						$my_data[$arch['id']] = array(
-							'text'     => $table ,//$arch['id'],//$table ,
+							'text'     => $table ,//$arch['id'],
 							'id'=> 'Pore|'.$arch['id'],
 							'expanded' => false,
 						//	"hasChildren"=> true
 						);	
 					}
-				
+					
+					
 				
 				
 				

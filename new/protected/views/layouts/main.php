@@ -28,15 +28,16 @@
     'items' => array(
 	array(
             'class' => 'bootstrap.widgets.TbNav',
+			'htmlOptions'=>array('class'=>'pull-left'),
 			'items'=>array(
-				array('label' => 'Буровые растворы', 'url' => '#'),
+				array('label' => 'Буровые растворы', 'url' => '/index.php?r=pore'),
                 array('label' => 'Осложнения', 'url' => '#'),
                 array('label' => 'Справочники', 'url' => '/index.php?r=site/manual'),
-				array('label' => 'Стратиграфия', 'url' => '#')
 			),
         ),
 	array(
             'class' => 'bootstrap.widgets.TbNav',
+			'htmlOptions'=>array('class'=>'pull-right'),
 			'items'=>array(
 				array('url'=>Yii::app()->getModule('user')->loginUrl, 'label'=>Yii::app()->getModule('user')->t("Login"), 'visible'=>Yii::app()->user->isGuest),
 				array('url'=>Yii::app()->getModule('user')->registrationUrl, 'label'=>Yii::app()->getModule('user')->t("Register"), 'visible'=>Yii::app()->user->isGuest),

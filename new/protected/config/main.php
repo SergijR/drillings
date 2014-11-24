@@ -18,10 +18,6 @@ return array(
 	'aliases' => array(
         'bootstrap' => realpath(__DIR__ . '/../extensions/bootstrap'), // change this if necessary
     ),
- 
-
-   
-
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -35,96 +31,18 @@ return array(
 		'application.extensions.CAdvancedArFindBehavior',
 		'application.extensions.MTreeView.*'
     ),
-
-	'modules'=>array(
-		// uncomment the following to enable the Gii tool
-		'user' => array(
-        // названия таблиц взяты по умолчанию, их можно изменить
-			'tableUsers' => 'tbl_users',
-			'tableProfiles' => 'tbl_profiles',
-			'tableProfileFields' => 'tbl_profiles_fields',
-			    # encrypting method (php hash function)
-			    'hash' => 'md5',
-
-			    # send activation email
-			    'sendActivationMail' => true,
-
-			    # allow access for non-activated users
-			    'loginNotActiv' => true,
-
-			    # activate user on registration (only sendActivationMail = false)
-			    'activeAfterRegister' => false,
-
-			    # automatically login from registration
-			    'autoLogin' => true,
-
-			    # registration path
-			    'registrationUrl' => array('/user/registration'),
-
-			    # recovery password path
-			    'recoveryUrl' => array('/user/recovery'),
-
-			    # login form path
-			    'loginUrl' => array('/user/login'),
-
-			    # page after login
-			    'returnUrl' => array('/user/profile'),
-
-			    # page after logout
-			    'returnLogoutUrl' => array('/user/login'),
-			),
-		'gii'=>array(
-			'generatorPaths'=>array(
-                'bootstrap.gii',
-            ),
-			'class'=>'system.gii.GiiModule',
-			'password'=>'777',
-			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
-		),
-		'srbac' => array(
-			'userclass'=>'Users', //default: User
-			'userid'=>'id', //default: userid
-			'username'=>'username', //default:username
-			'delimeter'=>'@', //default:-
-			'debug'=>false, //default :false
-			'pageSize'=>10, // default : 15
-			'superUser' =>'Authorizer', //default: Authorizer
-			'css'=>'srbac.css', //default: srbac.css
-			'layout'=>'application.views.layouts.main', //default: application.views.layouts.main,
-			//must be an existing alias
-			'notAuthorizedView'=> 'srbac.views.authitem.unauthorized', // default:
-			//srbac.views.authitem.unauthorized, must be an existing alias
-			'alwaysAllowed'=>array( //default: array()
-			'SiteLogin','SiteLogout','SiteIndex','SiteAdmin',
-			'SiteError', 'SiteContact'),
-			'userActions'=>array('Show','View','List'), //default: array()
-			'listBoxNumberOfLines' => 15, //default : 10 'imagesPath' => 'srbac.images', // default: srbac.images 'imagesPack'=>'noia', //default: noia 'iconText'=>true, // default : false 'header'=>'srbac.views.authitem.header', //default : srbac.views.authitem.header,
-			//must be an existing alias 'footer'=>'srbac.views.authitem.footer', //default: srbac.views.authitem.footer,
-			//must be an existing alias 'showHeader'=>true, // default: false 'showFooter'=>true, // default: false
-			'alwaysAllowedPath'=>'srbac.components', // default: srbac.components
-			// must be an existing alias
-			)
-	),
-
+	
+	
 	// application components
 	'components'=>array(
-	'authManager'=>array(
-		// Path to SDbAuthManager in srbac module if you want to use case insensitive
-		//access checking (or CDbAuthManager for case sensitive access checking)
-	//	'class'=>'	      modules.srbac.components.SDbAuthManager',
-		'class'=>'application.modules.srbac.components.SDbAuthManager',
-
-
-		// The database component used
-		'connectionID'=>'db',
-		// The itemTable name (default:authitem)
-		'itemTable'=>'au_items',
-		// The assignmentTable name (default:authassignment)
-		'assignmentTable'=>'au_assignments',
-		// The itemChildTable name (default:authitemchild)
-		'itemChildTable'=>'au_itemchildren',
-		),
+	'authManager' => array(
+       'class'  => 'CDbAuthManager',
+       'connectionID'     => 'db',
+       'itemTable'          => 'AuthItem',
+       'itemChildTable'    => 'AuthItemChild',
+       'assignmentTable' => 'AuthAssignment',
+       'defaultRoles'       =>  array('Guest'),
+    ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'class' => 'WebUser',
@@ -177,6 +95,74 @@ return array(
 				*/
 			),
 		),
+	),
+
+	'modules'=>array(
+		// uncomment the following to enable the Gii tool
+		'user' => array(
+        // названия таблиц взяты по умолчанию, их можно изменить
+			'tableUsers' => 'tbl_users',
+			'tableProfiles' => 'tbl_profiles',
+			'tableProfileFields' => 'tbl_profiles_fields',
+			    # encrypting method (php hash function)
+			    'hash' => 'md5',
+
+			    # send activation email
+			    'sendActivationMail' => true,
+
+			    # allow access for non-activated users
+			    'loginNotActiv' => true,
+
+			    # activate user on registration (only sendActivationMail = false)
+			    'activeAfterRegister' => false,
+
+			    # automatically login from registration
+			    'autoLogin' => true,
+
+			    # registration path
+			    'registrationUrl' => array('/user/registration'),
+
+			    # recovery password path
+			    'recoveryUrl' => array('/user/recovery'),
+
+			    # login form path
+			    'loginUrl' => array('/user/login'),
+
+			    # page after login
+			    'returnUrl' => array('/user/profile'),
+
+			    # page after logout
+			    'returnLogoutUrl' => array('/user/login'),
+			),
+		'gii'=>array(
+			'generatorPaths'=>array(
+                'bootstrap.gii',
+            ),
+			'class'=>'system.gii.GiiModule',
+			'password'=>'777',
+			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+			'ipFilters'=>array('127.0.0.1','::1'),
+		),
+		'srbac'   => array(
+                   // Модель для работы с таблицой пользователей
+                   'userclass' => 'User',
+                   // Уникальный идентификатор пользователя
+                   'userid'    => 'id',
+                   // Название поля содержащего имя пользователя
+                   'username'  => 'username',
+                   // В режиме отладки все пользователи могут управлять правилами доступа
+                   'debug'     => true,
+                   // Колличество пунктов выводимых на 1 странице
+                   'pageSize'  => 20,
+                   // Название роли супер пользователя
+                   'superUser' => 'Authority',
+                   // Файл стилей для модуля
+                   'css'       => 'srbac.css',
+                   // Операции разрещенные польщователю                       
+                   'userActions'          => array('Show','View','List','Index'),
+                   //
+                   'listBoxNumberOfLines' => 15,
+                   ),
 	),
 
 	// application-level parameters that can be accessed
