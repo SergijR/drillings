@@ -69,6 +69,17 @@ class PoreController extends Controller
 				
 					$archs = Pore::model()->findAll($criteria);
 					$my_data = array();
+<<<<<<< HEAD
+					foreach ($archs as $arch) {
+						$my_data[$arch->id] = array(
+							'text'     => 'Скважина :'.$arch->No ,
+							'id'=> 'Pore|'.$arch->id,
+							'expanded' => false,
+							"hasChildren"=> true
+						);	
+					} 
+=======
+>>>>>>> 473527c436d53e50ec73c41c426c67b811856c22
 					
 				} elseif ($_GET['rooter'] && $_GET['root']=='source') {
 					
