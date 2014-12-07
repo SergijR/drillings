@@ -46,14 +46,6 @@ $this->menu=array(
 <?
 
 
-/*$this->widget('zii.widgets.jui.CJuiAccordion',array(
-'id'=>'pore-tree',
-    'panels'=>array(
-        'panel 1'=>'content for panel 1',
-        'panel 2'=>'content for panel 2',
-
-    ),
-));*/
 	$this->widget('CTreeView', array(
 	'id'=>'pore-tree',
 	//'data' => $my_data

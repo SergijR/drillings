@@ -45,6 +45,18 @@ class Pore extends CActiveRecord
 	/**
 	 * @return array relational rules.
 	 */
+	public function attributeExports() 
+	{
+		return array(
+			'id',
+			'name',
+			'price',
+			'status',
+			'description',
+			'category.name',
+			//'category_id'	
+		);
+	}	
 	public function relations()
 	{
 		// NOTE: you may need to adjust the relation name and the related

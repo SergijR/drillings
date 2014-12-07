@@ -12,6 +12,7 @@ echo CHtml::scriptFile($assets . '/easyui/jquery.easyui.min.js');
 echo CHtml::cssFile($assets . '/easyui/themes/default/easyui.css'); 
 echo CHtml::cssFile($assets . '/easyui/themes/icon.css'); 
 ?>
+<script type="text/javascript" src="http://www.jeasyui.com/easyui/datagrid-detailview.js"></script>
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />

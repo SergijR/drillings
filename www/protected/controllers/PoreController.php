@@ -8,6 +8,11 @@ class PoreController extends Controller
 	 */
 	public $layout='/layouts/sidebar/column_tree';
 
+	public function init()
+	{
+		parent::init();
+		EuiJavaScript::registerCrudScripts();
+	}
 	/**
 	 * @return array action filters
 	 */
@@ -61,21 +66,14 @@ class PoreController extends Controller
 {
 	if ( !$_GET['rooter'] && $_GET['root']=='source' ) {
 				
-				/*	$criteria = new CDbCriteria();
+					$criteria = new CDbCriteria();
 					$criteria->limit = 10;  
 				
-					$archs = Pore::model()->findAll($criteria);*/
-					$items['columns'] = array(
-		array('title' => 'id', 'field'=>'id', 'width'=> 10, 'sortable'=>true),
-		array('title' => 'name', 'field'=>'name', 'width'=> 30, 'sortable'=>true),
-		array('title' => 'price', 'field'=>'price', 'width'=> 20, 'sortable'=>true),
-		array('title' => 'status', 'field'=>'status', 'width'=> 10),
-		array('title' => 'description', 'field'=>'description', 'width'=> 15),
-		array('title' => 'category', 'field'=>'category_name', 'width'=> 15)
-	);	
-					
+					$archs = Pore::model()->findAll($criteria);
+	
+					$this->render('index', array('model' => $archs));
 				} 
-				elseif ($_GET['rooter'] && $_GET['root']=='source') {
+			elseif ($_GET['rooter'] && $_GET['root']=='source') {
 				
 				$id_square = $_GET['rooter'];
 
@@ -86,14 +84,8 @@ class PoreController extends Controller
 					->bindParam(':id_square',$id_square,PDO::PARAM_STR)
 					->queryAll();
 					
-					    $items = array();
-					// формируем массив с данными
-					foreach( $archs as $row ) {
-							// в массив кладем только те поля, что нужны при просмотре
-							$items['columns'] = array( 
-								array( 'title' => $row['id'], 'field'=>'id', 'width'=> 10, 'sortable'=>true ),
-								);
-					}
+					$this->render('index', array('model' => $archs));
+					
 				
 				} else {
 				
@@ -108,32 +100,24 @@ class PoreController extends Controller
 					->where(' f."id_pore" = :id_pore ')
 					->bindParam(':id_pore',$id_pore,PDO::PARAM_STR)
 					->queryAll();
-					//var_dump($archs);
-
-					    $items = array();
-						// формируем массив с данными
-						foreach( $archs as $row) {
+					$my_data = array();
+					foreach ($archs as $arch) {
+					foreach ($arch as $it=>$item) {
 					
-								// в массив кладем только те поля, что нужны при просмотре
-								$items['columns'] = array( 
-										array( 'title' => $row['id'], 'field'=>'id', 'width'=> 10, 'sortable'=>true ),
-									);
-									
-						}
+					$my_data[$it] = $item;
+					}
+					}
+					$this->render('index', array('model' => $my_data));
+					    
 
 				
 				
 				
 				}
-
-  header('Content-Type: application/json');
-    echo CJSON::encode( 
-        
-             $items  // данные
-        
-    );
-    Yii::app()->end();
 	}
+	
+	
+	
 		public function actionTree()	{
 			
 			//if (Yii::app()->request->isAjaxRequest)

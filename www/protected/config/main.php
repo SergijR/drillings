@@ -32,6 +32,8 @@ return array(
 		'application.modules.user.components.*',
 		'application.extensions.CAdvancedArFindBehavior',
 		'application.extensions.MTreeView.*',
+		'application.extensions.yii-easyui.web.*',
+		'application.extensions.yii-easyui.data.EuiActiveRecord',	
 		'editable.*' //easy include of editable classes
     ),
 	
